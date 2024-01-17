@@ -1,0 +1,33 @@
+#FRI{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+}
+.uform{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 1200px;
+}
+.basic{
+    margin-top: 5px;
+    margin-left: 1px;
+    margin-right: 3px;
+    height: 200px;
+    width: 800px;
+}
+.rbox1{
+    margin-top: 5px;
+    margin-left: 1px;
+    margin-right: 2px;
+    height: 200px;
+    width: 500px;
+}
+.cbox1{
+    margin: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 200px;
+    width: 500px;
+}

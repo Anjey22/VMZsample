@@ -1,0 +1,42 @@
+.info{
+    text-align: right;
+}
+img[src*='vmz.jpeg']{
+    height: 200px;
+    width: 250px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: hsl(189, 39%, 45%);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.services {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+.infos:hover{
+    background-color: aqua;
+    border: 1px solid rgb(18, 94, 94)tcyan;
+    border-radius: 5px;
+}
+.yt:hover{
+    color: rgb(5, 112, 42);
+}

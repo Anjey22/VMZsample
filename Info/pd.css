@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: hsl(199, 42%, 50%);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.services {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}

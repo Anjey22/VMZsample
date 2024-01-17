@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="user.css" type="text/css">
+<style>
+       * { border: 1px solid black;
+       }
+</style>
+    <title>Form</title>
+    <H1 class="IR" id="FRI">For Inquiries and Registration</H1>
+</head>
+<body>
+
+    <p>Register or Log in!</p>
+    <form class="form" action="post" autocomplete="">
+    <div class="uform">
+        <div class="basic">
+
+            <label for="country">Select Contenent:</label>
+            <select name="contenent">
+                <option value="asia">Asia</option>
+                <option value="africa">Africa</option>
+                <option value="southAmerica">South America</option>
+                <option value="northAmerica">North America</option>
+                <option value="antartica">Antartica</option>
+                <option value="austrialla">Austrialla</option>
+                <option value="europe">Europe</option>
+            </select>
+            <br><br>
+            <label for="fname">Company Name:</label>
+            <input type="text" required>
+            <br> <br>
+            <label for="conNum">Contact Number:</label>
+            <input type="number" required>
+            <br> <br>
+            <label for="email">Enter Email or User ID:</label>
+            <input type="email" placeholder="@gmail / @ID" required>
+            <br> <br>
+            <label for="pw">Enter your Password: </label>
+            <input type="password" required>
+        </div>
+             <div class="rbox1">
+            <label for="rbox">Type of Customer:</label>
+            <br>
+            <input type="radio" name="customer"> Current Customer
+            <br>
+            <input type="radio" name="customer"> New Customer
+            <br>
+            <input type="radio" name="customer"> For Inquiry
+            <br>
+        </div>
+            <div class="cbox1">
+           <label for="cbox">Products and Services needed:</label>
+            <br>
+           <input type="checkbox"> Fabrication
+            <br>
+           <input type="checkbox"> Machining
+            <br>
+           <input type="checkbox"> Drawing/ Designing
+            <br>
+           <input type="checkbox"> CNC Milling / Turning
+        </div>
+        <div>
+        Choose Date of Appointment: <input type="date" min="2024-01-05">
+    </div>
+    </div>
+    <hr>
+Other concers write below:
+<textarea name="other" id="" cols="40" rows="5">Write your message here.</textarea>
+<br>
+<label for="sub">Click to Submit information:</label>
+<br>
+<input type="submit" value="Click">
+</form>
+</body>
+</html>
